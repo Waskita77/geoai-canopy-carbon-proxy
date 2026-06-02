@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Large geospatial data
+*.tif
+*.tiff
+*.vrt
+*.aux.xml
+*.ovr
+*.cpg
+*.dbf
+*.prj
+*.shp
+*.shx
+*.gpkg
+
+# ML artifacts
+*.pth
+*.pt
+*.ckpt
+*.npy
+*.npz
+
+# Local data folders
+data/GLAD/*
+data/raw_train/*
+data/raw_inference/*
+data/processed/*
+data/tiles_dataset/*
+data/output_maps/*
+data/reports/*
+
+# Keep folder structure
+!data/**/.gitkeep
+
+# Generated figures are allowed
+!docs/figures/*.png
+
+# Sample outputs are allowed
+!sample_outputs/**
+
+# OS
+.DS_Store
+Thumbs.db
