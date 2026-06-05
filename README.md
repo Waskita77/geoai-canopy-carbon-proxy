@@ -112,7 +112,7 @@ geoai-canopy-carbon-proxy/
     reports/
 ```
 
-Large raster files, model checkpoints, NumPy training tiles, and generated GeoTIFF outputs are excluded from the repository through `.gitignore`.
+Large raster files, model checkpoints, NumPy training tiles, and generated GeoTIFF outputs are excluded from the repository
 
 ---
 
